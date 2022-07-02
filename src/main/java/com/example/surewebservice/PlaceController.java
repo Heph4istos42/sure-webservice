@@ -16,7 +16,7 @@ public class PlaceController {
 
     @GetMapping("/help")
     public String allo() {
-        return "/palce - to do smomething";
+        return "TODO: - add a doku";
     }
 
     @GetMapping("/places")
