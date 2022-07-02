@@ -1,0 +1,7 @@
+CREATE TABLE `place` (
+   `id` int NOT NULL AUTO_INCREMENT,
+   `name` varchar(64) NOT NULL,
+   `text` varchar(512) DEFAULT NULL,
+   `gps` varchar(32) DEFAULT NULL,
+   PRIMARY KEY (`id`)
+ ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
